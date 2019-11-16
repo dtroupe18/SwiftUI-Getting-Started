@@ -15,6 +15,7 @@
 		55FFA09F237F9B8900681EC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FFA09D237F9B8900681EC9 /* LaunchScreen.storyboard */; };
 		55FFA0A7238061D400681EC9 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FFA0A6238061D400681EC9 /* TimeCounter.swift */; };
 		55FFA0AB238068CC00681EC9 /* RGBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FFA0AA238068CC00681EC9 /* RGBColor.swift */; };
+		55FFA0AE2380738B00681EC9 /* SwiftUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FFA0AD2380738B00681EC9 /* SwiftUISlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		55FFA0A0237F9B8900681EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55FFA0A6238061D400681EC9 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
 		55FFA0AA238068CC00681EC9 /* RGBColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBColor.swift; sourceTree = "<group>"; };
+		55FFA0AD2380738B00681EC9 /* SwiftUISlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		55FFA091237F9B8700681EC9 /* SwiftUIExampleOne */ = {
 			isa = PBXGroup;
 			children = (
+				55FFA0AC2380734900681EC9 /* UISliderSwiftUI */,
 				55FFA092237F9B8700681EC9 /* AppDelegate.swift */,
 				55FFA094237F9B8700681EC9 /* SceneDelegate.swift */,
 				55FFA096237F9B8700681EC9 /* ContentView.swift */,
@@ -82,6 +85,14 @@
 				55FFA09B237F9B8900681EC9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55FFA0AC2380734900681EC9 /* UISliderSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				55FFA0AD2380738B00681EC9 /* SwiftUISlider.swift */,
+			);
+			path = UISliderSwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +168,7 @@
 			files = (
 				55FFA093237F9B8700681EC9 /* AppDelegate.swift in Sources */,
 				55FFA0AB238068CC00681EC9 /* RGBColor.swift in Sources */,
+				55FFA0AE2380738B00681EC9 /* SwiftUISlider.swift in Sources */,
 				55FFA095237F9B8700681EC9 /* SceneDelegate.swift in Sources */,
 				55FFA097237F9B8700681EC9 /* ContentView.swift in Sources */,
 				55FFA0A7238061D400681EC9 /* TimeCounter.swift in Sources */,

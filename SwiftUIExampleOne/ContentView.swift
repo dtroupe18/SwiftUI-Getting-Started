@@ -99,9 +99,17 @@ struct ContentView: View {
         }).padding()
 
         VStack {
-          ColorSlider(value: $redGuess, textColor: .red).opacity(self.calculateScoreForColor(rgbColor: .red))
-          ColorSlider(value: $greenGuess, textColor: .green).opacity(self.calculateScoreForColor(rgbColor: .green))
-          ColorSlider(value: $blueGuess, textColor: .blue).opacity(self.calculateScoreForColor(rgbColor: .blue))
+          SwiftUISlider(thumbColor: .red, minTrackColor: .red, maxTrackColor: .lightGray, value: $redGuess)
+            .opacity(self.calculateScoreForColor(rgbColor: .red))
+
+          SwiftUISlider(thumbColor: .green, minTrackColor: .green, maxTrackColor: .lightGray, value: $greenGuess)
+            .opacity(self.calculateScoreForColor(rgbColor: .green))
+
+          SwiftUISlider(thumbColor: .blue, minTrackColor: .blue, maxTrackColor: .lightGray, value: $blueGuess)
+
+          // ColorSlider(value: $redGuess, textColor: .red).opacity(self.calculateScoreForColor(rgbColor: .red))
+          // ColorSlider(value: $greenGuess, textColor: .green).opacity(self.calculateScoreForColor(rgbColor: .green))
+          // ColorSlider(value: $blueGuess, textColor: .blue).opacity(self.calculateScoreForColor(rgbColor: .blue))
         }.padding(.horizontal) // Add some space before & after the sliderViews.
       }
       .navigationBarTitle("", displayMode: .inline)
