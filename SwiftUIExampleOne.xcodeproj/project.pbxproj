@@ -13,6 +13,8 @@
 		55FFA099237F9B8900681EC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FFA098237F9B8900681EC9 /* Assets.xcassets */; };
 		55FFA09C237F9B8900681EC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FFA09B237F9B8900681EC9 /* Preview Assets.xcassets */; };
 		55FFA09F237F9B8900681EC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FFA09D237F9B8900681EC9 /* LaunchScreen.storyboard */; };
+		55FFA0A7238061D400681EC9 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FFA0A6238061D400681EC9 /* TimeCounter.swift */; };
+		55FFA0AB238068CC00681EC9 /* RGBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FFA0AA238068CC00681EC9 /* RGBColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		55FFA09B237F9B8900681EC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		55FFA09E237F9B8900681EC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55FFA0A0237F9B8900681EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55FFA0A6238061D400681EC9 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		55FFA0AA238068CC00681EC9 /* RGBColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +47,10 @@
 				55FFA091237F9B8700681EC9 /* SwiftUIExampleOne */,
 				55FFA090237F9B8700681EC9 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
 		};
 		55FFA090237F9B8700681EC9 /* Products */ = {
 			isa = PBXGroup;
@@ -59,6 +66,8 @@
 				55FFA092237F9B8700681EC9 /* AppDelegate.swift */,
 				55FFA094237F9B8700681EC9 /* SceneDelegate.swift */,
 				55FFA096237F9B8700681EC9 /* ContentView.swift */,
+				55FFA0A6238061D400681EC9 /* TimeCounter.swift */,
+				55FFA0AA238068CC00681EC9 /* RGBColor.swift */,
 				55FFA098237F9B8900681EC9 /* Assets.xcassets */,
 				55FFA09D237F9B8900681EC9 /* LaunchScreen.storyboard */,
 				55FFA0A0237F9B8900681EC9 /* Info.plist */,
@@ -147,8 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				55FFA093237F9B8700681EC9 /* AppDelegate.swift in Sources */,
+				55FFA0AB238068CC00681EC9 /* RGBColor.swift in Sources */,
 				55FFA095237F9B8700681EC9 /* SceneDelegate.swift in Sources */,
 				55FFA097237F9B8700681EC9 /* ContentView.swift in Sources */,
+				55FFA0A7238061D400681EC9 /* TimeCounter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
